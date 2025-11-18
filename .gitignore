@@ -1,0 +1,80 @@
+# Nextflow work directory
+work/
+
+# Nextflow results
+results/
+test_results/
+
+# Nextflow cache
+.nextflow/
+.nextflow.log*
+
+# Nextflow reports
+*.html
+*.svg
+*.txt
+!samplesheet.csv
+
+# Test data
+test_data/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Compressed files (except documentation)
+*.gz
+*.bz2
+*.zip
+*.tar
+
+# BAM/SAM files
+*.bam
+*.bam.bai
+*.sam
+
+# VCF files
+*.vcf
+*.vcf.gz
+*.vcf.idx
+*.vcf.gz.tbi
+
+# FASTQ files
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Reference files
+*.fa
+*.fasta
+*.fa.fai
+*.fasta.fai
+*.dict
+
+# Logs
+*.log
+logs/
